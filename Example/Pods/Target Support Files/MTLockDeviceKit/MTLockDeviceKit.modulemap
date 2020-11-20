@@ -1,0 +1,6 @@
+framework module MTLockDeviceKit {
+  umbrella header "MTLockDeviceKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

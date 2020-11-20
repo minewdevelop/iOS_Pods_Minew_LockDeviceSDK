@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MTLockDeviceKit'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of MTLockDeviceKit.'
 
 # This description is used to generate tags and improve search results.
@@ -21,22 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/xxdeer/MTLockDeviceKit'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/minewdevelop/iOS_Pods_Minew_LockDeviceSDK'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'xxdeer' => 'rex.xie@minewtech.com' }
-  s.source           = { :git => 'https://github.com/xxdeer/MTLockDeviceKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
+  s.author           = { 'rex.xie' => 'rex.xie@minewtech.com' }
+  s.source           = { :git => 'https://github.com/minewdevelop/iOS_Pods_Minew_LockDeviceSDK.git', :tag => s.version.to_s }
+  s.ios.deployment_target = '10.0'
   s.source_files = 'MTLockDeviceKit/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'MTLockDeviceKit' => ['MTLockDeviceKit/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.vendored_frameworks = 'MTLockDeviceKit/Frameworks/*.{framework}'
 end

@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MTLockDeviceKit (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MTLockDeviceKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  MTLockDeviceKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MTLockDeviceKit: 2d5e0ac16e88224b54e587bfe0118d8c7c234657
+
+PODFILE CHECKSUM: 62e37a4313360c9a019d52bf44e5067b9478136a
+
+COCOAPODS: 1.10.0
